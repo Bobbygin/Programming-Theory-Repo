@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
         rb=GetComponent<Rigidbody>();
 
     }
-    void Update()
+    void FixedUpdate()
     {
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * speed * Time.deltaTime);
