@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float xRange = 52;
     public float yForce= 30f;
     Rigidbody rb;
-    public float time = 2.0f;
+    public float time = 1.5f;
     public float timer = 0f;
     void Start()
     {
