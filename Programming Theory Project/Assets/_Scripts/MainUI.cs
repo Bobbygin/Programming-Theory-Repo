@@ -22,6 +22,6 @@ public class MainUI : MonoBehaviour
     public void UpdateScore()//Abstraction
     {
         score += 1;
-        scoreText.text = "Goal: Get the 7 balls around the map ("+score+"/4).";
+        scoreText.text = "Goal: Get the 4 balls around the map ("+score+"/4).";
     }
 }
