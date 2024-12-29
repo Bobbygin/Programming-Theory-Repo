@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SphereController : MonoBehaviour
 {
-    public static MainUI S;
+    public static MainUI S { get; private set; }//Encapsulation
     public GameObject UIManager;
     private void Awake()
     {

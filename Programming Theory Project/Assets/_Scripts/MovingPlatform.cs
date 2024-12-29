@@ -21,7 +21,7 @@ public class MovingPlatform : MonoBehaviour
         
         
     }
-    private void Move()
+    public virtual void Move()
     {
         if (timer >= time)
         {

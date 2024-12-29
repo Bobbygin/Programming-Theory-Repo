@@ -13,15 +13,15 @@ public class MainUI : MonoBehaviour
     private void Awake()
     {
         
-        scoreText.text = "Goal: Get the 7 balls around the map (0/7).";
+        scoreText.text = "Goal: Get the 4 balls around the map (0/4).";
     }
     public void ToMenu()
     {
         SceneManager.LoadScene(0);
     }
-    public void UpdateScore()
+    public void UpdateScore()//Abstraction
     {
         score += 1;
-        scoreText.text = "Goal: Get the 7 balls around the map ("+score+"/7).";
+        scoreText.text = "Goal: Get the 7 balls around the map ("+score+"/4).";
     }
 }
